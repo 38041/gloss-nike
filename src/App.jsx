@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import TenisNike from './assets/tenis-nike.jpg'
+import Liphoney from './assets/gloss-Liphoney.webp'
+import bunny from './assets/gloss-bunny.webp'
+import gloss from './assets/gloss-3.webp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,9 +16,9 @@ function App() {
           {/* Produto 1 */}
           <a href="#" className="link-card">
             <div className="card">
-              <img src={TenisNike} alt="" className="img-prod"/>
+              <img src={Liphoney} alt="" className="img-prod"/>
               <h2>GLOSS FRAN BY FRANCINY EHLKE LIPHONEY</h2>
-              <p className="desc">Referência:   40103  Modelo/Marca:   Mboom</p>
+              <p className="desc">Referência:   40103  Modelo/Marca:  Mboom</p>
               <p className="preco">R$ 69,90</p>
               <div className="avaliacao"> <span>★ ★ ★ ★ ☆</span>(472)</div>
               <div className="off">- 15%</div>
@@ -26,7 +28,7 @@ function App() {
           {/* Produto 2 */}
           <a href="#" className="link-card">
             <div className="card">
-              <img src={TenisNike} alt="" className="img-prod"/>
+              <img src={gloss} alt="" className="img-prod"/>
               <h2>KIT FRAN GLOSSLICIOUS BY FRANCINY EHLKE</h2>
               <p className="desc">Referência:   12103 Modelo/Marca:   Mboom</p>
               <p className="preco">R$ 109,90</p>
@@ -38,7 +40,7 @@ function App() {
           {/* Produto 3 */}
           <a href="#" className="link-card">
             <div className="card">
-              <img src={TenisNike} alt="" className="img-prod"/>
+              <img src={bunny} alt="" className="img-prod"/>
               <h2>GLOSS FRAN BY FRANCINY EHLKE LIP BUNNY</h2>
               <p className="desc">Referência:   40104   Modelo/Marca:   Mboom</p>
               <p className="preco">R$ 65,90</p>
